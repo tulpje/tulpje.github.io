@@ -1,5 +1,8 @@
 # The URL the site will be built for
 base_url = "https://tulpje.github.io"
+title = "Tulpje"
+description = "A Multi-Purpose Discord Bot"
+default_language = "en"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
@@ -11,6 +14,3 @@ build_search_index = true
 
 [markdown.highlighting]
 theme = "catppuccin-mocha"
-
-[extra]
-# Put all your custom variables here
