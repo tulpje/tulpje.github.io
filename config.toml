@@ -3,6 +3,7 @@ base_url = "https://tulpje.github.io"
 title = "Tulpje"
 description = "A Multi-Purpose Discord Bot"
 default_language = "en"
+theme = "zola-hook"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
