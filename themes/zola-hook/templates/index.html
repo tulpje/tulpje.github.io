@@ -30,7 +30,7 @@
     {% block header %}
     <header class="space">
         <h1>{{ config.title }}</h1>
-        {% set linked_pages = section.pages | filter(attribute="extra.in_header") %}
+        {% set linked_pages = section.pages | default(value=[]) | filter(attribute="extra.in_header") %}
         {% if config.extra.links or linked_pages %}
         <nav class="header-links">
             {% for link in config.extra.links %}
