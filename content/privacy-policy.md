@@ -9,7 +9,7 @@ This policy is effective as of March the 26th, 2026. Changes to this policy can 
 For questions, preferably join the [support server](https://discord.gg/Zg4hkHAusC), or email [privacy@zowi.ee](mailto:privacy@zowi.ee).
 
 # Your Data
-For the functioning of the bot the following data is stored:
+For the functioning of the bot the following data is stored (and encrypted at test):
 
 * The ID of your Discord user, and any servers you invite the bot into to keep track
   of configuration
@@ -29,7 +29,7 @@ Additionally the following data is accessed but not stored
   emoji IDs are extracted and then the data is discarded
 
 # Other
-For troubleshooting and monitoring the following is also stored
+For troubleshooting and monitoring the following is also stored (and encrypted at rest)
 
 * Anonymous usage statistics, the amount and types of discord messages the bot receives
 * High level logs of bot actions, such as commands executed, messages sent, etc.
