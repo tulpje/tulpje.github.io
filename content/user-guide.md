@@ -13,6 +13,7 @@ What permissions the bot requests and why
 * **Create/Manage Expressions:** needed to create emojis
 * **Send Messages:** bot responses and front change notifications
 * **Read Message History:** used to track emoji usage in messages
+* **Embed Links:** some of the bot's responses are considered embed links
 
 ## Commands
 
