@@ -18,9 +18,9 @@ For the functioning of the bot the following data is stored:
   (these are removed within a day after no notifications or servers are set up for the system)
 * IDs of custom emojis in your server to track emoji usage
 
-And the following data is cached:
+And the following data is cached in memory:
 
-* Server info, channels, roles, members, emoji (these are deleted when you remove the bot from your server)
+* Server info, channels, roles, members, emoji (these are pruned when you remove the bot from your server)
 * User information
 
 Additionally the following data is accessed but not stored
