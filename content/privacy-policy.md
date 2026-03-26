@@ -4,7 +4,7 @@ title: Privacy Policy
 
 This outlines the Tulpje privacy policy, how we collect and process your data. We're not lawyers so we're trying to keep it as simple as we can.
 
-This policy is effective as of March the 25th, 2026. Changes to this policy can be viewed [on GitHub](https://github.com/tulpje/tulpje.github.io/commits/main/content/privacy-policy.md).
+This policy is effective as of March the 26th, 2026. Changes to this policy can be viewed [on GitHub](https://github.com/tulpje/tulpje.github.io/commits/main/content/privacy-policy.md).
 
 For questions, preferably join the [support server](https://discord.gg/Zg4hkHAusC), or email [privacy@zowi.ee](mailto:privacy@zowi.ee).
 
@@ -14,7 +14,8 @@ For the functioning of the bot the following data is stored:
 * The ID of your Discord user, and any servers you invite the bot into to keep track
   of configuration
 * PluralKit system, fronter and member data of the systems tracked by Tulpje for
-  fronting notifications and the current fronters category functionality
+  fronting notifications and the current fronters category functionality.
+  (these are removed within a day after no notifications or servers are set up for the system)
 * IDs of custom emojis in your server to track emoji usage
 
 And the following data is cached:
