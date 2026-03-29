@@ -11,12 +11,12 @@ For questions, preferably join the [support server](https://discord.gg/Zg4hkHAus
 # Your Data
 For the functioning of the bot the following data is stored (and encrypted at test):
 
-* The ID of your Discord user, and any servers you invite the bot into to keep track
-  of configuration
-* PluralKit system, fronter and member data of the systems tracked by Tulpje for
-  fronting notifications and the current fronters category functionality.
-  (these are removed within a day after no notifications or servers are set up for the system)
+## Discord
+
+* The ID of your Discord user and the ID of any servers you invite the bot into
+  to keep track of configuration
 * IDs of custom emojis in your server to track emoji usage
+*this data is removed one week after removing the bot from your server*
 
 And the following data is cached in memory:
 
@@ -27,6 +27,12 @@ Additionally the following data is accessed but not stored
 
 * Content of messages on your discord server to track emoji usage, this data is not persisted
   emoji IDs are extracted and then the data is discarded
+
+## PluralKit
+
+* PluralKit system, fronter and member data of the systems tracked by Tulpje for
+  fronting notifications and the current fronters category functionality.
+  (these are removed within a day after no notifications or servers are set up for the system)
 
 # Other
 For troubleshooting and monitoring the following is also stored (and encrypted at rest)
