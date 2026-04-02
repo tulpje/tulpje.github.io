@@ -73,6 +73,12 @@ After updating your fronters should be listed under category:
 
 ![An image showing a Fronters category, with 2 channels below it, Myriad Kit and Tester T. Testington](./pk-fronters-update-category-example.png)
 
+<blockquote class="warning">
+  <h1>⚠️ Warning ⚠️</h1>
+  Any channels you add to the category your fronters are in will get deleted
+  the next time the bot updates them.
+</blockquote>
+
 #### Front Notifications
 Allows you to follow systems and have notifications sent in a channel in the current
 server whenever a system's fronters change
@@ -116,9 +122,11 @@ Creates roles in the discord for each individual member of your system.
 All of these will be assigned to you so individual members can be mentioned.
 *You can optionally specify your PluralKit token to also add private members.*
 
-> **⚠️ Warning ⚠️**<br>
-> Currently there's no way to delete the created roles
-> so if you end up disliking them it might take some effort to remove them
+<blockquote class="warning">
+  <h1>⚠️ Warning ⚠️</h1>
+  Currently there's no way to delete the created roles
+  so if you end up disliking them it might take some effort to remove them
+</blockquote>
 
 You'll get a summary after updating roles completes
 

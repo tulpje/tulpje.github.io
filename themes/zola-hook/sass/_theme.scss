@@ -171,3 +171,19 @@ table {
         background-color: var(--table-row);
     }
 }
+
+blockquote.warning {
+  display: inline-block;
+
+  border: 1px solid #ffb347;
+  border-radius: 4px;
+  background-color: #2c2315;
+
+  padding: 1em;
+  margin-right: 0;
+
+  h1 {
+    font-size: inherit;
+    margin-top: 0;
+  }
+}
